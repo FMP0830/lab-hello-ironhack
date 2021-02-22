@@ -1,0 +1,52 @@
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark-blue {
+  background-color: #1F2535;
+  color: #fff;
+  padding: 20px 75px 150px 75px;
+}
+
+.dark-blue > h1 {
+  font-size: 4rem; 
+}
+
+.dark-blue > p {
+
+  line-height: 1.5rem;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin-bottom: 200px;
+}
+
+.btn {
+  background-color: #fff;;
+  border: none;
+  border-radius: 2px;
+  padding: 15px 30px;
+  font-weight: 600;
+  color: #222222
+}
+
+.features {
+  width: 100;
+  display: flex;
+  justify-content: space-around;
+  padding: 150px 75px 50px 75px;
+}
+
+.card {
+  width: 20%;
+}
+
+.card > img {
+  width: 80%;
+}
